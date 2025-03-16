@@ -105,6 +105,7 @@ st.markdown(
             margin: auto;
             border-radius: 15px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            padding:10px;
         }
         img:hover{
             box-shadow: 0px 5px 25px rgba(221, 36, 118, 0.8);
@@ -122,7 +123,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title('🎬 Movie Recommender')
+st.title('🎬 AI Movie Recommender')
 
 selected_movie_name = st.selectbox('Which movie do you like?', movies['names'].values)
 
